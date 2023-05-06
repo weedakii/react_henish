@@ -1,0 +1,13 @@
+export { default as Navbar } from "./layouts/Navbar";
+export { default as Footer } from "./layouts/Footer";
+export { default as Home } from "./Home";
+export { default as About } from "./About";
+export { default as Edu } from "./Edu";
+export { default as Services } from "./Services";
+export { default as Schedule } from "./Schedule";
+export { default as FirstCard } from "./card/FirstCard";
+export { default as SecondCard } from "./card/SecondCard";
+export { default as ThirdCard } from "./card/ThirdCard";
+export { default as Contact } from "./Contact";
+export { default as Maps } from "./Maps";
+export { default as Says } from "./Says";

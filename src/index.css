@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ttl {
+  @apply text-slate-800 text-4xl font-semibold text-center my-5;
+}
+
+.inp {
+  @apply border bg-slate-50 focus:border border-b-slate-500 active:border-mainColor focus:border-mainColor border-transparent w-full outline-none py-2 px-3;
+}
+
+.btn {
+  @apply py-2 px-4 bg-slate-600 hover:bg-slate-900 active:scale-90 text-slate-100 rounded-md;
+}
